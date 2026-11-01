@@ -1,0 +1,27 @@
+test_complete_missing_means_only_not_observed (test_catalog.CollectorTests.test_complete_missing_means_only_not_observed) ... ok
+test_csv_formula_text_is_escaped_without_changing_json (test_catalog.CollectorTests.test_csv_formula_text_is_escaped_without_changing_json) ... ok
+test_currency_change_does_not_compare_unlike_money (test_catalog.CollectorTests.test_currency_change_does_not_compare_unlike_money) ... ok
+test_duplicate_and_bad_records_disable_absence_detection (test_catalog.CollectorTests.test_duplicate_and_bad_records_disable_absence_detection) ... ok
+test_duplicate_variant_and_missing_option_rejected (test_catalog.CollectorTests.test_duplicate_variant_and_missing_option_rejected) ... ok
+test_equivalent_decimals_are_not_price_changes (test_catalog.CollectorTests.test_equivalent_decimals_are_not_price_changes) ... ok
+test_export_provenance_and_report_escape (test_catalog.CollectorTests.test_export_provenance_and_report_escape) ... ok
+test_foreign_product_variant_rejected (test_catalog.CollectorTests.test_foreign_product_variant_rejected) ... ok
+test_invalid_json_and_schema_fail_explicitly (test_catalog.CollectorTests.test_invalid_json_and_schema_fail_explicitly) ... ok
+test_mapping_cleaning_and_decimal_units (test_catalog.CollectorTests.test_mapping_cleaning_and_decimal_units) ... ok
+test_page_limit_is_partial (test_catalog.CollectorTests.test_page_limit_is_partial) ... ok
+test_partial_failure_never_marks_missing (test_catalog.CollectorTests.test_partial_failure_never_marks_missing) ... ok
+test_price_and_availability_changes (test_catalog.CollectorTests.test_price_and_availability_changes) ... ok
+test_rejects_invalid_money_and_ids (test_catalog.CollectorTests.test_rejects_invalid_money_and_ids) ... ok
+test_repeat_is_idempotent_but_retains_snapshots (test_catalog.CollectorTests.test_repeat_is_idempotent_but_retains_snapshots) ... ok
+test_repeated_page_is_partial (test_catalog.CollectorTests.test_repeated_page_is_partial) ... ok
+test_robots_denial_stops_collection (test_catalog.CollectorTests.test_robots_denial_stops_collection) ... ok
+test_short_page_does_not_end_traversal (test_catalog.CollectorTests.test_short_page_does_not_end_traversal) ... ok
+test_unknown_currency_is_not_guessed (test_catalog.CollectorTests.test_unknown_currency_is_not_guessed) ... ok
+test_403_not_retried (test_catalog.HTTPTests.test_403_not_retried) ... ok
+test_homepage_is_hash_only (test_catalog.HTTPTests.test_homepage_is_hash_only) ... ok
+test_retry_and_raw_hash_evidence (test_catalog.HTTPTests.test_retry_and_raw_hash_evidence) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.540s
+
+OK

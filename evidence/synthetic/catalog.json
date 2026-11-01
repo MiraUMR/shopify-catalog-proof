@@ -1,0 +1,164 @@
+{
+  "generated_at": "2026-11-01T00:41:56.292+00:00",
+  "amount_unit": "decimal major units from public catalog strings",
+  "inventory_quantity": "not collected; available is a boolean only",
+  "runs": [
+    {
+      "id": 1,
+      "store": "https://synthetic.example.test",
+      "started_at": "2026-11-01T00:41:56.245+00:00",
+      "ended_at": "2026-11-01T00:41:56.254+00:00",
+      "status": "complete",
+      "source_kind": "synthetic_fixture",
+      "network": "synthetic_no_network",
+      "currency": "CAD",
+      "currency_source": "https://synthetic.example.test/ (Shopify.currency.active)",
+      "pages": 2,
+      "product_count": 2,
+      "variant_count": 2,
+      "error": null
+    },
+    {
+      "id": 2,
+      "store": "https://synthetic.example.test",
+      "started_at": "2026-11-01T00:41:56.257+00:00",
+      "ended_at": "2026-11-01T00:41:56.266+00:00",
+      "status": "complete",
+      "source_kind": "synthetic_fixture",
+      "network": "synthetic_no_network",
+      "currency": "CAD",
+      "currency_source": "https://synthetic.example.test/ (Shopify.currency.active)",
+      "pages": 2,
+      "product_count": 2,
+      "variant_count": 2,
+      "error": null
+    },
+    {
+      "id": 3,
+      "store": "https://synthetic.example.test",
+      "started_at": "2026-11-01T00:41:56.269+00:00",
+      "ended_at": "2026-11-01T00:41:56.278+00:00",
+      "status": "complete",
+      "source_kind": "synthetic_fixture",
+      "network": "synthetic_no_network",
+      "currency": "CAD",
+      "currency_source": "https://synthetic.example.test/ (Shopify.currency.active)",
+      "pages": 2,
+      "product_count": 2,
+      "variant_count": 2,
+      "error": null
+    },
+    {
+      "id": 4,
+      "store": "https://synthetic.example.test",
+      "started_at": "2026-11-01T00:41:56.281+00:00",
+      "ended_at": "2026-11-01T00:41:56.289+00:00",
+      "status": "partial",
+      "source_kind": "synthetic_fixture",
+      "network": "synthetic_no_network",
+      "currency": "CAD",
+      "currency_source": "https://synthetic.example.test/ (Shopify.currency.active)",
+      "pages": 1,
+      "product_count": 1,
+      "variant_count": 1,
+      "error": "SYNTHETIC injected page-2 timeout; no network request"
+    }
+  ],
+  "products": [
+    {
+      "currency": "CAD",
+      "currency_source": "https://synthetic.example.test/ (Shopify.currency.active)",
+      "description": "Synthetic fixture only, not a live merchant product.",
+      "handle": "synthetic-shirt-1",
+      "id": "1",
+      "images": [],
+      "product_type": "",
+      "source_url": "https://synthetic.example.test/products/synthetic-shirt-1",
+      "title": "SYNTHETIC fixture shirt 1",
+      "variants": [
+        {
+          "available": false,
+          "compare_at_price": null,
+          "id": "10",
+          "image_url": null,
+          "options": {
+            "Color": "Blue"
+          },
+          "price": "14.50",
+          "sku": "",
+          "title": ""
+        }
+      ],
+      "vendor": "Synthetic Fixture",
+      "store": "https://synthetic.example.test",
+      "first_seen_run": 1,
+      "last_seen_run": 4,
+      "observation_state": "observed",
+      "content_hash": "5f9e850de00c204ad9d4f34518df27eed348a2650529c83bc79bc2ef43aa196e",
+      "collected_at": "2026-11-01T00:41:56.281+00:00",
+      "source_kind": "synthetic_fixture"
+    },
+    {
+      "currency": "CAD",
+      "currency_source": "https://synthetic.example.test/ (Shopify.currency.active)",
+      "description": "Synthetic fixture only, not a live merchant product.",
+      "handle": "synthetic-shirt-2",
+      "id": "2",
+      "images": [],
+      "product_type": "",
+      "source_url": "https://synthetic.example.test/products/synthetic-shirt-2",
+      "title": "SYNTHETIC fixture shirt 2",
+      "variants": [
+        {
+          "available": true,
+          "compare_at_price": null,
+          "id": "20",
+          "image_url": null,
+          "options": {
+            "Color": "Blue"
+          },
+          "price": "12.30",
+          "sku": "",
+          "title": ""
+        }
+      ],
+      "vendor": "Synthetic Fixture",
+      "store": "https://synthetic.example.test",
+      "first_seen_run": 1,
+      "last_seen_run": 3,
+      "observation_state": "observed",
+      "content_hash": "108da3e8e5f8fdae541b3ec5f6d17f877744ea97a34afd6b35f004ad1bea1439",
+      "collected_at": "2026-11-01T00:41:56.269+00:00",
+      "source_kind": "synthetic_fixture"
+    }
+  ],
+  "changes": [
+    {
+      "id": 1,
+      "run_id": 3,
+      "product_id": "1",
+      "variant_id": "10",
+      "field": "available",
+      "before_value": "true",
+      "after_value": "false"
+    },
+    {
+      "id": 2,
+      "run_id": 3,
+      "product_id": "1",
+      "variant_id": "10",
+      "field": "price",
+      "before_value": "\"12.30\"",
+      "after_value": "\"14.50\""
+    }
+  ],
+  "quality": [
+    {
+      "id": 1,
+      "run_id": 4,
+      "code": "collection_error",
+      "detail": "SYNTHETIC injected page-2 timeout; no network request"
+    }
+  ],
+  "requests": []
+}

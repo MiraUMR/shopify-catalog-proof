@@ -1,0 +1,3 @@
+﻿store,product_id,variant_id,title,sku,options,price,compare_at_price,currency,currency_source,available,image_url,source_url,observation_state,first_seen_run,last_seen_run,collected_at,source_kind
+https://synthetic.example.test,1,10,SYNTHETIC fixture shirt 1,,"{""Color"":""Blue""}",14.50,,CAD,https://synthetic.example.test/ (Shopify.currency.active),false,,https://synthetic.example.test/products/synthetic-shirt-1,observed,1,4,2026-11-01T00:41:56.281+00:00,synthetic_fixture
+https://synthetic.example.test,2,20,SYNTHETIC fixture shirt 2,,"{""Color"":""Blue""}",12.30,,CAD,https://synthetic.example.test/ (Shopify.currency.active),true,,https://synthetic.example.test/products/synthetic-shirt-2,observed,1,3,2026-11-01T00:41:56.269+00:00,synthetic_fixture

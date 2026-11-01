@@ -1,0 +1,53 @@
+{
+  "audit": "PASS",
+  "scope": "shipped public-demo evidence; zero live field changes",
+  "runs": [
+    {
+      "id": 1,
+      "store": "https://theme-dawn-demo.myshopify.com",
+      "started_at": "2026-11-01T00:39:35.184+00:00",
+      "ended_at": "2026-11-01T00:39:41.603+00:00",
+      "status": "complete",
+      "source_kind": "public_demo",
+      "network": "direct",
+      "currency": "CAD",
+      "currency_source": "https://theme-dawn-demo.myshopify.com/ (Shopify.currency.active)",
+      "pages": 5,
+      "product_count": 32,
+      "variant_count": 266,
+      "error": null
+    },
+    {
+      "id": 2,
+      "store": "https://theme-dawn-demo.myshopify.com",
+      "started_at": "2026-11-01T00:39:48.420+00:00",
+      "ended_at": "2026-11-01T00:39:54.841+00:00",
+      "status": "complete",
+      "source_kind": "public_demo",
+      "network": "direct",
+      "currency": "CAD",
+      "currency_source": "https://theme-dawn-demo.myshopify.com/ (Shopify.currency.active)",
+      "pages": 5,
+      "product_count": 32,
+      "variant_count": 266,
+      "error": null
+    }
+  ],
+  "unique_products": 32,
+  "snapshots": 64,
+  "csv_variant_rows": 266,
+  "requests_hashed": 14,
+  "raw_responses_verified": 12,
+  "homepage_policy": "hash-only; HTML not retained",
+  "quality_events": 0,
+  "field_changes": 0,
+  "checks": [
+    "SQLite integrity and foreign keys",
+    "snapshot/content SHA-256",
+    "gzip response SHA-256 and sizes",
+    "run counts vs snapshots",
+    "repeat identity sets and normalized content hashes",
+    "CSV uniqueness and counts",
+    "JSON/database agreement"
+  ]
+}
